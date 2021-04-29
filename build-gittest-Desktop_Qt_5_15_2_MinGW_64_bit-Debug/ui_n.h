@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
 
@@ -20,6 +21,8 @@ class Ui_n
 {
 public:
     QLabel *no;
+    QPushButton *pushButton;
+    QPushButton *lol;
 
     void setupUi(QDialog *n)
     {
@@ -32,6 +35,12 @@ public:
         QFont font;
         font.setPointSize(14);
         no->setFont(font);
+        pushButton = new QPushButton(n);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(90, 210, 93, 28));
+        lol = new QPushButton(n);
+        lol->setObjectName(QString::fromUtf8("lol"));
+        lol->setGeometry(QRect(250, 200, 93, 28));
 
         retranslateUi(n);
 
@@ -42,6 +51,8 @@ public:
     {
         n->setWindowTitle(QCoreApplication::translate("n", "Dialog", nullptr));
         no->setText(QCoreApplication::translate("n", "nancy's workspace", nullptr));
+        pushButton->setText(QCoreApplication::translate("n", "PushButton", nullptr));
+        lol->setText(QCoreApplication::translate("n", "lolbutton", nullptr));
     } // retranslateUi
 
 };

@@ -13,3 +13,13 @@ n::~n()
 {
     delete ui;
 }
+
+void n::on_pushButton_clicked()
+{
+    QMessageBox::information(this,"Message","hiiiiii",QMessageBox::Ok);
+}
+
+void n::on_lol_clicked()
+{
+    QMessageBox::information(this,"Message","lol",QMessageBox::Ok);
+}
