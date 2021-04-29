@@ -12,8 +12,3 @@ n::~n()
 {
     delete ui;
 }
-
-void n::on_pushButton_clicked()
-{
-    ui->message->setText("hi");
-}
