@@ -33,5 +33,3 @@ void MainWindow::on_nbutton_clicked()
     nancy.setModal(true);
     nancy.exec();
 }
-
-
