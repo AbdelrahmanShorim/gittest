@@ -34,7 +34,4 @@ void MainWindow::on_nbutton_clicked()
     nancy.exec();
 }
 
-void MainWindow::on_pushButton_clicked()
-{
-    QMessageBox::information(this,"Message","Abddooooo",QMessageBox::Ok);
-}
+
