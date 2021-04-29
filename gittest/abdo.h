@@ -15,6 +15,9 @@ public:
     explicit abdo(QWidget *parent = nullptr);
     ~abdo();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::abdo *ui;
 };

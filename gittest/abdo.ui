@@ -44,6 +44,19 @@
     <string>hiiiiiiiiii</string>
    </property>
   </widget>
+  <widget class="QLabel" name="hi">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>200</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
