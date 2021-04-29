@@ -227,7 +227,7 @@ debug/moc_abdo.cpp: ../gittest/abdo.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
 		debug/moc_predefs.h \
 		C:/Qt/5.15.2/mingw81_64/bin/moc.exe
-	C:\Qt\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include C:/Users/ab_ay/Desktop/gittest/build-gittest-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++ -IC:/Users/ab_ay/Desktop/gittest/gittest -IC:/Qt/5.15.2/mingw81_64/include -IC:/Qt/5.15.2/mingw81_64/include/QtWidgets -IC:/Qt/5.15.2/mingw81_64/include/QtGui -IC:/Qt/5.15.2/mingw81_64/include/QtANGLE -IC:/Qt/5.15.2/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\gittest\abdo.h -o debug\moc_abdo.cpp
+	C:\Qt\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include "C:/Users/Nada Ayman/Desktop/gittest/gittest/build-gittest-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++ -I"C:/Users/Nada Ayman/Desktop/gittest/gittest/gittest" -IC:/Qt/5.15.2/mingw81_64/include -IC:/Qt/5.15.2/mingw81_64/include/QtWidgets -IC:/Qt/5.15.2/mingw81_64/include/QtGui -IC:/Qt/5.15.2/mingw81_64/include/QtANGLE -IC:/Qt/5.15.2/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\gittest\abdo.h -o debug\moc_abdo.cpp
 
 debug/moc_mainwindow.cpp: ../gittest/mainwindow.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
@@ -338,7 +338,7 @@ debug/moc_mainwindow.cpp: ../gittest/mainwindow.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		debug/moc_predefs.h \
 		C:/Qt/5.15.2/mingw81_64/bin/moc.exe
-	C:\Qt\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include C:/Users/ab_ay/Desktop/gittest/build-gittest-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++ -IC:/Users/ab_ay/Desktop/gittest/gittest -IC:/Qt/5.15.2/mingw81_64/include -IC:/Qt/5.15.2/mingw81_64/include/QtWidgets -IC:/Qt/5.15.2/mingw81_64/include/QtGui -IC:/Qt/5.15.2/mingw81_64/include/QtANGLE -IC:/Qt/5.15.2/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\gittest\mainwindow.h -o debug\moc_mainwindow.cpp
+	C:\Qt\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include "C:/Users/Nada Ayman/Desktop/gittest/gittest/build-gittest-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++ -I"C:/Users/Nada Ayman/Desktop/gittest/gittest/gittest" -IC:/Qt/5.15.2/mingw81_64/include -IC:/Qt/5.15.2/mingw81_64/include/QtWidgets -IC:/Qt/5.15.2/mingw81_64/include/QtGui -IC:/Qt/5.15.2/mingw81_64/include/QtANGLE -IC:/Qt/5.15.2/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\gittest\mainwindow.h -o debug\moc_mainwindow.cpp
 
 debug/moc_n.cpp: ../gittest/n.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QDialog \
@@ -447,7 +447,7 @@ debug/moc_n.cpp: ../gittest/n.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
 		debug/moc_predefs.h \
 		C:/Qt/5.15.2/mingw81_64/bin/moc.exe
-	C:\Qt\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include C:/Users/ab_ay/Desktop/gittest/build-gittest-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++ -IC:/Users/ab_ay/Desktop/gittest/gittest -IC:/Qt/5.15.2/mingw81_64/include -IC:/Qt/5.15.2/mingw81_64/include/QtWidgets -IC:/Qt/5.15.2/mingw81_64/include/QtGui -IC:/Qt/5.15.2/mingw81_64/include/QtANGLE -IC:/Qt/5.15.2/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\gittest\n.h -o debug\moc_n.cpp
+	C:\Qt\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include "C:/Users/Nada Ayman/Desktop/gittest/gittest/build-gittest-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++ -I"C:/Users/Nada Ayman/Desktop/gittest/gittest/gittest" -IC:/Qt/5.15.2/mingw81_64/include -IC:/Qt/5.15.2/mingw81_64/include/QtWidgets -IC:/Qt/5.15.2/mingw81_64/include/QtGui -IC:/Qt/5.15.2/mingw81_64/include/QtANGLE -IC:/Qt/5.15.2/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\gittest\n.h -o debug\moc_n.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -585,7 +585,24 @@ debug/abdo.o: ../gittest/abdo.cpp ../gittest/abdo.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
-		ui_abdo.h
+		ui_abdo.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\abdo.o ..\gittest\abdo.cpp
 
 debug/main.o: ../gittest/main.cpp ../gittest/mainwindow.h \
@@ -812,6 +829,25 @@ debug/mainwindow.o: ../gittest/mainwindow.cpp ../gittest/mainwindow.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		ui_mainwindow.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMenuBar \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmenubar.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmenu.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qaction.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QStatusBar \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
 		../gittest/abdo.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QDialog \
 		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
@@ -923,7 +959,24 @@ debug/n.o: ../gittest/n.cpp ../gittest/n.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		C:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
-		ui_n.h
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+		ui_n.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\n.o ..\gittest\n.cpp
 
 debug/moc_abdo.o: debug/moc_abdo.cpp 
