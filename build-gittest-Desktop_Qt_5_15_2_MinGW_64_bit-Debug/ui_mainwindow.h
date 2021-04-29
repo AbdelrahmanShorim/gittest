@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -25,6 +26,8 @@ public:
     QWidget *centralwidget;
     QPushButton *abdobutton;
     QPushButton *nbutton;
+    QLabel *label;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -41,6 +44,12 @@ public:
         nbutton = new QPushButton(centralwidget);
         nbutton->setObjectName(QString::fromUtf8("nbutton"));
         nbutton->setGeometry(QRect(240, 60, 111, 61));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(220, 170, 47, 14));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(30, 160, 111, 41));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -60,6 +69,8 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         abdobutton->setText(QCoreApplication::translate("MainWindow", "abdo", nullptr));
         nbutton->setText(QCoreApplication::translate("MainWindow", "n", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
     } // retranslateUi
 
 };
