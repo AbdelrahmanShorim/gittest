@@ -18,6 +18,8 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_ohh_clicked();
+
 private:
     Ui::abdo *ui;
 };

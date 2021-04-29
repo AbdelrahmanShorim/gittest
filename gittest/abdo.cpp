@@ -13,3 +13,8 @@ abdo::~abdo()
 {
     delete ui;
 }
+
+void abdo::on_ohh_clicked()
+{
+    QMessageBox::information(this,"Message","test error",QMessageBox::Ok);
+}
