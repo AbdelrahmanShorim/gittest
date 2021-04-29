@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
 
@@ -20,6 +21,7 @@ class Ui_abdo
 {
 public:
     QLabel *label;
+    QPushButton *pushButton;
 
     void setupUi(QDialog *abdo)
     {
@@ -32,6 +34,9 @@ public:
         QFont font;
         font.setPointSize(14);
         label->setFont(font);
+        pushButton = new QPushButton(abdo);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(100, 190, 80, 22));
 
         retranslateUi(abdo);
 
@@ -42,6 +47,7 @@ public:
     {
         abdo->setWindowTitle(QCoreApplication::translate("abdo", "Dialog", nullptr));
         label->setText(QCoreApplication::translate("abdo", "Abdo's workspace", nullptr));
+        pushButton->setText(QCoreApplication::translate("abdo", "hiiiiiiiiii", nullptr));
     } // retranslateUi
 
 };

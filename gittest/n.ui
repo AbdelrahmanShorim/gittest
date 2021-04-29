@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="no">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -29,6 +29,32 @@
    </property>
    <property name="text">
     <string>nancy's workspace</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="message">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>This is a message</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>
