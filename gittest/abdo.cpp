@@ -1,5 +1,6 @@
 #include "abdo.h"
 #include "ui_abdo.h"
+#include <QMessageBox>
 
 abdo::abdo(QWidget *parent) :
     QDialog(parent),
@@ -11,4 +12,9 @@ abdo::abdo(QWidget *parent) :
 abdo::~abdo()
 {
     delete ui;
+}
+
+void abdo::on_pushButton_clicked()
+{
+    QMessageBox::information(this,"Message","test error",QMessageBox::Ok);
 }
