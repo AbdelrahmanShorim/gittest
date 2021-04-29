@@ -25,7 +25,7 @@ public:
     {
         if (abdo->objectName().isEmpty())
             abdo->setObjectName(QString::fromUtf8("abdo"));
-        abdo->resize(400, 300);
+        abdo->resize(586, 424);
         label = new QLabel(abdo);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(40, 70, 301, 131));
