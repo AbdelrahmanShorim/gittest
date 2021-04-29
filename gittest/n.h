@@ -18,6 +18,8 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_lol_clicked();
+
 private:
     Ui::n *ui;
 };
