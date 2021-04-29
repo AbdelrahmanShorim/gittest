@@ -16,6 +16,6 @@ abdo::~abdo()
 
 void abdo::on_pushButton_clicked()
 {
-    QMessageBox::information(this,"Message","test error",QMessageBox::Ok);
     ui->hi->setText("yow");
+    QMessageBox::information(this,"Message","test error",QMessageBox::Ok);
 }

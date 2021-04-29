@@ -37,10 +37,10 @@ public:
         no->setFont(font);
         message = new QLabel(n);
         message->setObjectName(QString::fromUtf8("message"));
-        message->setGeometry(QRect(160, 180, 171, 61));
+        message->setGeometry(QRect(200, 180, 171, 61));
         pushButton = new QPushButton(n);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(20, 200, 93, 28));
+        pushButton->setGeometry(QRect(50, 200, 93, 28));
 
         retranslateUi(n);
 
