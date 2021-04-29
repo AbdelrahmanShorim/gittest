@@ -13,9 +13,3 @@ abdo::~abdo()
 {
     delete ui;
 }
-
-void abdo::on_pushButton_clicked()
-{
-    ui->hi->setText("yow");
-    QMessageBox::information(this,"Message","test error",QMessageBox::Ok);
-}

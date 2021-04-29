@@ -13,7 +13,6 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
 
@@ -21,11 +20,6 @@ class Ui_abdo
 {
 public:
     QLabel *label;
-    QPushButton *pushButton;
-//<<<<<<< HEAD
-    QLabel *hi;
-//=======
-//>>>>>>> e1adeb8fe1348369d87c8d2b4da8af35e8b98acf
 
     void setupUi(QDialog *abdo)
     {
@@ -38,15 +32,6 @@ public:
         QFont font;
         font.setPointSize(14);
         label->setFont(font);
-        pushButton = new QPushButton(abdo);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(100, 190, 80, 22));
-//<<<<<<< HEAD
-        hi = new QLabel(abdo);
-        hi->setObjectName(QString::fromUtf8("hi"));
-        hi->setGeometry(QRect(240, 200, 101, 16));
-//=======
-//>>>>>>> e1adeb8fe1348369d87c8d2b4da8af35e8b98acf
 
         retranslateUi(abdo);
 
@@ -57,11 +42,6 @@ public:
     {
         abdo->setWindowTitle(QCoreApplication::translate("abdo", "Dialog", nullptr));
         label->setText(QCoreApplication::translate("abdo", "Abdo's workspace", nullptr));
-        pushButton->setText(QCoreApplication::translate("abdo", "hiiiiiiiiii", nullptr));
-//<<<<<<< HEAD
-        hi->setText(QCoreApplication::translate("abdo", "TextLabel", nullptr));
-//=======
-//>>>>>>> e1adeb8fe1348369d87c8d2b4da8af35e8b98acf
     } // retranslateUi
 
 };
